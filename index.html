@@ -1,0 +1,55 @@
+<!--
+    Approach : buiding the rock paper scissor   -> What ?? 3 element : 2 users _each iteration both will give one choice , then
+comination of choices : Each user will contain the scores
+LOGIC
+User : Man &  Comp 
+Scores : Man_sc & Comp_sc
+3 Choices : R , P , S =>> Rock-Paper || Rock - Sci || Paper-Scissor
+??but how to iterate the things again and again => Ek while loop & Ek flag 
+?? Choose the states => Te button astil -> Button click -> Eka pathopat chance milel -> Konta pn button click kela ki event listen madhe tyachi 
+id ghyachi mathci karaichi
+
+UI ?
+
+-->  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="/images/rock (1).png" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="images/paper (1).png" />
+      </div>
+      <div class="choice" id="scissors">
+        <img src="images/scissors (1).png" />
+      </div>
+    </div>
+
+    
+    <div class="score-board">
+        <div class="score">
+          <p id="user-score">0</p>
+          <p>You</p>
+        </div>
+        <div class="score">
+          <p id="comp-score">0</p>
+          <p>Comp</p>
+        </div>
+      </div>
+  
+      <div class="msg-container">
+        <p id="msg">Play your move</p>
+      </div>
+
+    <Script src="app.js"></Script>
+</body>
+</html>
